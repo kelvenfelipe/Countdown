@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,main {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image__top {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+.image__top img {
+    width: 100vw;
+    height: 17vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 6rem;
+}
+
+.container h1 {
+    color: var(--purple);
+    font-size: 2.4rem;
+}
+
+.container p {
+    color: var(--text-color);
+}
+
+.container button {
+    width: 160px;
+    height: 46px;
+    background-color: var(--purple);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+}
+
+.container__contagem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__contagem  p {
+    color: var(--light-grey);
+    font-size: .85rem;
+    text-align: center;
+}
+
+.container__contagem span {
+    color: var(--black);
+    font-size: 4.4rem;
+}
+
+.doisPontos {
+    padding: 0 10px;
+}
+
+.image__rocket {
+    position: absolute;
+    width: 38%;
+    top: 21%;
+    right: 4rem;
+}
+
+.image__bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+.image__bottom img {
+    width: 100vw;
+    height: 23vh;
+}
